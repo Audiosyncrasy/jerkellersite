@@ -1,0 +1,31 @@
+/* GLOBAL */
+
+small {
+    text-align: left;
+    display: block;
+    font-size: 0.9rem;
+    margin: 0 3px 0;
+}
+
+#logo .image {
+    position: relative;
+}
+
+/* PORTFOLIO */
+.portfolioDesc {
+    margin-top: -10px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+    line-height: normal;
+    background-color: #FFF;
+}
+
+.item > header > h3 {
+    font-size: 1.3rem;
+}
+
+#portfolio > .container > p,
+#about > .container > p {
+    text-align: left;
+}
