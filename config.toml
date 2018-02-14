@@ -1,77 +1,45 @@
 baseurl = "/"
-title = "Jer Keller"
-theme = "prologue"
-languageCode = "en-us"
 defaultContentLanguage = "en"
+disableKinds = ["RSS"]
 enableRobotsTXT = true
-disableKinds=["RSS"]
-
+languageCode = "en-us"
+theme = "prologue"
+title = "Jer Keller"
 [params]
-  name = "Jer Keller"
-  description = "delivering custom web-based solutions in a personalized customer experience"
-  copyright = "2018 Jer Keller"
-
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "https://twitter.com/_audiosyncrasy"
-
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "https://www.facebook.com/jerkeller"
-
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "https://github.com/Audiosyncrasy"
-
-[[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "mailto:jer@jerkeller.com"
-
-# Portfolio column one
-
+copyright = "2018 Jer Keller"
+description = "delivering custom web-based solutions in a personalized customer experience"
+name = "Jer Keller"
 [[params.portfolio1]]
-  title = "Todd's Auto Service"
-  alt = "Screenshot of Todd's Auto Service's website"
-  source = "img/tas-screenshot.jpg"
-  desc = "The client wanted a simple, fast-loading web site that provided contact information for Todd's Auto Service and a description of what services they offer. Site features include responsive design that scales based on the device size, a Testimonials section that includes Facebook reviews, and an interactive map on the Contact page."
-  url = "https://www.toddsautoservice.com"
-
-#[[params.portfolio1]]
-#  title = "Rhoncus Semper"
-#  alt = ""
-#  source = "img/pic03.jpg"
-#  url = "#"
-
-# Portfolio column two
-
+alt = "Screenshot of Todd's Auto Service's website"
+desc = "The client wanted a simple, fast-loading web site that provides contact information for Todd's Auto Service and a description of what services they offer. Site features include responsive design that scales based on the device size, a Testimonials section that includes Facebook reviews, and an interactive map on the Contact page."
+source = "img/tas-screenshot.jpg"
+title = "Todd's Auto Service"
+url = "https://www.toddsautoservice.com"
 [[params.portfolio2]]
-  title = "Gen of Eve Photography"
-  alt = "Screenshot of the Gen of Eve Photography website"
-  source = "img/goep-screenshot.jpg"
-  desc = "I built this site for a freelance photographer who wanted to showcase her work and start building a web-presence through regular blog posts. Built from scratch using WordPress, this site features a robust photo gallery, a blog page, and an interface that allows her to refresh content on her website as her business grows and changes."
-  url = "https://genofevephotography.com/"
-
-#[[params.portfolio2]]
-#  title = "Natoque Vitae"
-#  alt = ""
-#  source = "img/pic05.jpg"
-#  url = "#"
-
-# Portfolio column 3
-
+alt = "Screenshot of the Gen of Eve Photography website"
+desc = "I built this site for a freelance photographer who wanted to showcase her work and start building a web-presence through regular blog posts. Built from scratch using WordPress, this site features a robust photo gallery, a blog page, and an interface that allows her to refresh content on her website as her business grows and changes."
+source = "img/goep-screenshot.jpg"
+title = "Gen of Eve Photography"
+url = "https://genofevephotography.com/"
 [[params.portfolio3]]
-  title = "The Dizzys Band"
-  alt = "Screenshot of website for The Dizzy's band"
-  source = "img/dizzys-screenshot.jpg"
-  desc = "The goal with The Dizzys' web site was to provide a fast, responsive place for fans to connect with the band. The Shows page integrates with the band's Bandsintown account. When members add a show on Bandsintown, the site updates automatically, avoiding the need to update the website directly. In addition, there is a contact page that allows fans and booking agents to connect with the band via email."
-  url = "http://thedizzysband.com"
-
-#[[params.portfolio3]]
-#  title = "Orci Convallis"
-#  alt = ""
-#  source = "img/pic07.jpg"
-#  url = "#"
+alt = "Screenshot of website for The Dizzy's band"
+desc = "The goal with The Dizzys' web site was to provide a fast, responsive place for fans to connect with the band. The Shows page integrates with the band's Bandsintown account. When members add a show on Bandsintown, the site updates automatically, avoiding the need to update the website directly. In addition, there is a contact page that allows fans and booking agents to connect with the band via email."
+source = "img/dizzys-screenshot.jpg"
+title = "The Dizzys Band"
+url = "http://thedizzysband.com"
+[[params.social]]
+icon = "twitter"
+link = "https://twitter.com/_audiosyncrasy"
+medium = "twitter"
+[[params.social]]
+icon = "facebook"
+link = "https://www.facebook.com/jerkeller"
+medium = "facebook"
+[[params.social]]
+icon = "github"
+link = "https://github.com/Audiosyncrasy"
+medium = "github"
+[[params.social]]
+icon = "envelope"
+link = "mailto:jer@jerkeller.com"
+medium = "email"
