@@ -11,6 +11,14 @@ small {
     position: relative;
 }
 
+#main > section.five {
+    background-color: #000000;
+}
+
+#header {
+    background: #06234b url("images/overlay.png"); /* 2 shades lighter: #072755 */
+}
+
 /* PORTFOLIO */
 .portfolioDesc {
     margin-top: -10px;
