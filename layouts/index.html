@@ -68,9 +68,10 @@
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#projects" id="project-link" class="skel-layers-ignoreHref"><span class="icon fa-folder-open">Projects</span></a></li>
-								<li><a href="#media" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Media</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-folder-open">Projects</span></a></li>
+								<li><a href="#testimonials" id="testimonials-link" class="skel-layers-ignoreHref"><span class="icon fa-star">Testimonials</span></a></li>
+								<li><a href="#media" id="media-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Media</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -102,7 +103,7 @@
                                 
                                 <p>This site is dedicated to the music and services of <strong>Jer Keller</strong></p>
 								
-                                <p>Jer is an accomplished drummer and multi-instrumentalist. In addition to his skill behind the kit, he is also a producer and engineer with a finely tuned ear for many styles of music. Feel free to take a listen to the audio samples available in the <a href="#media">Media</a> section.</p>
+                                <p>Jer is an accomplished drummer and multi-instrumentalist. In addition to his skill behind the kit, he is also a producer and engineer with a finely tuned ear for many styles of music. Feel free to take a listen to the audio samples available in the <a href="#media" class="scrolly">Media</a> section.</p>
 							</header>
 
 							<footer>
@@ -113,7 +114,7 @@
 					</section>
                 
                 <!-- Projects -->
-					<section id="projects" class="three">
+					<section id="projects" class="four">
 						<div class="container">
 
 							<header>
@@ -127,7 +128,11 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio1 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit" target="_blank"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a href="{{ .url }}" class="image fit" target="_blank">
+                        <div class="widget_container">
+                            <iframe class="widget_iframe" src="https://www.reverbnation.com/widget_code/html_widget/artist_2148033?widget_id=52&amp;posted_by=artist_2148033&pwc[design]=default&pwc[background_color]=%23333333&pwc[layout]=compact&pwc[show_map]=0&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </a>
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
@@ -162,46 +167,94 @@
 						</div>
 					</section>
 				
+				<!-- Testimonials -->
+				    <section id="testimonials" class="two">
+				        <div class="container">
+				            <header>
+				                <h2>Testimonials</h2>
+				                <p>Check out what artists are saying about Jer and his work</p>
+				                
+				                {{ range .Site.Params.testimonial1 }}
+				                <div class="testimonial">
+				                    <article>
+				                        <span>
+				                            <img src="{{ .source }}" alt="{{ .alt }}" class="testimonial-img">
+                                        </span>
+                                        <span>
+                                            <div class="test-body">
+                                                {{ .testimonial }}
+                                            </div>
+                                            <div class="test-author">
+                                                <author>{{ .author }}</author> <span id="author-desc">{{ .authordesc }}</span>
+                                            </div>
+                                        </span>
+                                    </article>
+				                </div>
+				                {{ end }}
+				                
+				                {{ range .Site.Params.testimonial2 }}
+				                <div class="testimonial">
+				                    <article>
+				                        <span>
+				                            <img src="{{ .source }}" alt="{{ .alt }}" class="testimonial-img">
+                                        </span>
+                                        <span>
+                                            <div class="test-body">
+                                                {{ .testimonial }}
+                                            </div>
+                                            <div class="test-author">
+                                                <author>{{ .author }}</author> <span id="author-desc">{{ .authordesc }}</span>
+                                            </div>
+                                        </span>
+                                    </article>
+				                </div>
+				                {{ end }}
+				            </header>
+				        </div>
+				    </section>
+				
 				<!-- Media -->
-                    <section id="media" class="two">
+                    <section id="media" class="four">
                         <div class="container">
                             <header>
                                 <h2>Media</h2>
-                                <p>Placeholder for "Media" section</p>
+                                <p>Listen to a few samples of Jer's work using the audio player below.<br />If you would like to hear more, feel free to <a href="#contact" class="scrolly">send us a message</a>.</p>
                             </header>
+                            <article>
+                                <iframe width="100%" height="265" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_2148033?widget_id=55&#038;pwc[included_songs]=1&#038;context_type=page_object&#038;spoid=artist_2148033&#038;pwc[size]=small" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+                            </article>
                         </div>
                     </section>
 
-				<!-- About Me -->
-					<section id="about" class="four">
+				<!-- About -->
+					<section id="about" class="two">
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>About</h2>
 							</header>
 
 							<a href="#" class="image featured"><img src="img/about.jpg" alt="jer staring directly into the camera" /></a>
 
-							<p>I love helping people, and I enjoy a good challenge. Being a devloper allows 
-							me to put both of them together, which means I get to tackle unique feature requests, 
-							and my clients get a web solution that fits their needs <em>exactly</em>.</p>
+							<p><i class="fa fa-quote-left"></i> I am intensely passionate about the music creation process, from start to finish.</p>
 							
-                            <p><a href="#contact">Send me a message</a>, and we can schedule some time to chat about how to make your dream project a reality.</p>
+							<p>In addition to playing the drums, I enjoy the minute details of pre-production, setting up a recording session, producing, recording, mixing, and mastering.</p>
 							
-							<p>In my spare time (ha!), I enjoy <a href="http://audiosyncrasy.com">creating and playing music</a> and spending quality time with my family.</p>
-
+                            <p> I believe the most important aspect of a good performance, whether it’s on a stage in front of an audience or in the studio in front of other band members and the engineer, is capturing the moment.</p>
+							
+                            <p><a href="#contact" class="scrolly">Send me a message</a>, and we can schedule some time to chat about how to make your dream project a reality. <i class="fa fa-quote-right"></i></p>
 						</div>
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="two">
+					<section id="contact" class="four">
 						<div class="container">
 
 							<header>
 								<h2>Contact</h2>
 							</header>
 
-							<p>Thank you for taking the time to reach out! I will respond to your message within 24 hours.</p>
+							<p>Thank you for taking the time to reach out!<br />I will respond to your message within 24 hours.</p>
 
 							<form method="post" action="https://formspree.io/jer@jerkeller.com">
 							    <small>All fields are required</small>

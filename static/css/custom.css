@@ -37,3 +37,74 @@ small {
 #about > .container > p {
     text-align: left;
 }
+
+.widget_container {
+    margin-bottom: -10px;
+}
+
+/* TESTIMONIALS */
+.testimonial {
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.testimonial-img {
+    width: 100px;
+    border-radius: 50%;
+    border: solid 1px #CCC;
+    float: none;
+    margin-right: 15px;
+    color: #CCC;
+}
+
+.testimonial > article {
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 0 0 10px;
+}
+
+.test-body {
+    margin-bottom: 15px;
+}
+
+.test-author > author {
+    margin: 15px;
+    padding-left: 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-left: solid 3px #DDD;
+}
+
+#author-desc {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #999;
+}
+
+#about > .container > p {
+    margin-bottom: 15px;
+}
+
+#media > .container > article {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .testimonial > article {
+    display: flex;
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    }
+    
+    .test-author > author {
+        margin-left: 0;
+        font-size: 0.8rem;
+    }
+}
