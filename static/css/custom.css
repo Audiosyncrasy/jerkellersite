@@ -38,8 +38,21 @@ small {
     text-align: left;
 }
 
+#calendar-header {
+    margin: 0 auto 100px;
+    padding: 1rem;
+    background-color: #fff;
+    max-width: 550px;
+}
+
 .widget_container {
-    margin-bottom: -10px;
+    max-width: 550px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.profile {
+    display: none;
 }
 
 /* TESTIMONIALS */
@@ -60,6 +73,7 @@ small {
 
 .testimonial > article {
     display: flex;
+    color: #555;
     width: 100%;
     font-size: 1rem;
     line-height: 1.3;

@@ -121,18 +121,18 @@
 								<h2>Projects</h2>
 							</header>
 
-							<p>A list of Jer's current projects</p>
-
+							<p>Event calendar and a list of Jer's current projects</p>
+							
+							<div class="widget_container">
+                                <iframe class="widget_iframe" src="https://www.reverbnation.com/widget_code/html_widget/artist_2148033?widget_id=52&amp;posted_by=artist_2148033&pwc[design]=default&pwc[background_color]=%23ffffff&pwc[layout]=compact&pwc[show_map]=0&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no" style="padding-top: -10px"></iframe>
+                            </div>
+                            <p id="calendar-header">Calendar</p>
 
               <div class="row">
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio1 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit" target="_blank">
-                        <div class="widget_container">
-                            <iframe class="widget_iframe" src="https://www.reverbnation.com/widget_code/html_widget/artist_2148033?widget_id=52&amp;posted_by=artist_2148033&pwc[design]=default&pwc[background_color]=%23333333&pwc[layout]=compact&pwc[show_map]=0&pwc[size]=fit" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
-                        </div>
-                    </a>
+                    <a href="{{ .url }}" class="image fit" target="_blank"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
@@ -218,7 +218,7 @@
                         <div class="container">
                             <header>
                                 <h2>Media</h2>
-                                <p>Listen to a few samples of Jer's work using the audio player below.<br />If you would like to hear more, feel free to <a href="#contact" class="scrolly">send us a message</a>.</p>
+                                <p>Listen to a few samples of Jer's work using the audio player below.<br />If you would like to hear more, feel free to <a href="#contact" class="scrolly">send Jer a message</a>.</p>
                             </header>
                             <article>
                                 <iframe width="100%" height="265" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_2148033?widget_id=55&#038;pwc[included_songs]=1&#038;context_type=page_object&#038;spoid=artist_2148033&#038;pwc[size]=small" style="width:0px;min-width:100%;max-width:100%;"></iframe>
