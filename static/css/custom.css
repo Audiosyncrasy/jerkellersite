@@ -47,7 +47,7 @@ small {
 
 .widget_container {
     max-width: 550px;
-    height: 200px;
+    height: 250px;
     margin: 0 auto;
 }
 
@@ -105,6 +105,10 @@ small {
 #media > .container > article {
     max-width: 500px;
     margin: 0 auto;
+}
+
+.copyright {
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width: 500px) {
