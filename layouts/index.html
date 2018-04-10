@@ -209,6 +209,24 @@
                                     </article>
 				                </div>
 				                {{ end }}
+				                
+				                {{ range .Site.Params.testimonial3 }}
+				                <div class="testimonial">
+				                    <article>
+				                        <span>
+				                            <img src="{{ .source }}" alt="{{ .alt }}" class="testimonial-img">
+                                        </span>
+                                        <span>
+                                            <div class="test-body">
+                                                {{ .testimonial }}
+                                            </div>
+                                            <div class="test-author">
+                                                <author>{{ .author }}</author> <span id="author-desc">{{ .authordesc }}</span>
+                                            </div>
+                                        </span>
+                                    </article>
+				                </div>
+				                {{ end }}
 				            </header>
 				        </div>
 				    </section>

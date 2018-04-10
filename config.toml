@@ -25,12 +25,18 @@ source = "img/hp-team.jpg"
 title = "His Place Church"
 url = "https://soundcloud.com/hp-church/sets/his-place-fall-worship-night"
 [[params.testimonial1]]
+alt = "Photo of Michael Pedrosa looking into the camera."
+source = "img/michael.jpg"
+testimonial = "I have had the privilege of playing music with Jer for the past 5 years and was so excited when he agreed to track some drum tracks on my upcoming album.  I was absolutely blown away at at the life that Jer’s drumming added to my songs. His preparation and execution to deliver a quality product was nothing short of world class. Jer is professional and intentional in his approach, masterful with his technique, and his humble personality flows through his drum grooves as he seeks to serve the music in the best possible way."
+author = "Michael Pedrosa"
+authordesc = "Singer/songwriter"
+[[params.testimonial2]]
 alt = "Photo of Joe Nurre looking into the camera. Copyright Joe Nurre https://www.facebook.com/joenurreartist"
 source = "img/joe.jpg"
 testimonial = "Having played with Jer off and on for over 10 years, in the end if you need a quality/lasting product, you go to him. Not only is he fluent in his work on the drums, his ear is finely tuned having spent much of his time behind a mixing console working on projects ranging from death metal to mainstream rock, its a guarantee you wont be dissapointed."
 author = "Joe Nurre"
 authordesc = "Shaded Enmity, Jeff Loomis"
-[[params.testimonial2]]
+[[params.testimonial3]]
 alt = "Photo of Mark Roemen"
 source = "img/mark.jpg"
 testimonial = "I have had the pleasure to work with Jer for many years and he has always displayed the confidence and intuition of what to play to bring out the best in any song. His playing has always inspired me to improve my own playing and parts. Whether it be a show, in studio, or a rehearsal Jer always delivers his best...which is exceptional."
