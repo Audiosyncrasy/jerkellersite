@@ -11,6 +11,15 @@ small {
     position: relative;
 }
 
+#resume {
+    margin-top: 20px !important;
+    font-weight: bold;
+}
+
+.fa-star {
+    margin-right: 5px;
+}
+
 /* PORTFOLIO */
 .portfolioDesc {
     margin-top: -10px;

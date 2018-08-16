@@ -40,6 +40,10 @@ icon = "github"
 link = "https://github.com/Audiosyncrasy"
 medium = "github"
 [[params.social]]
+icon = "linkedin"
+link = "https://www.linkedin.com/in/jeremiah-keller-62a94011b"
+medium = "linkedin"
+[[params.social]]
 icon = "envelope"
 link = "mailto:jer@jerkeller.com"
 medium = "email"
