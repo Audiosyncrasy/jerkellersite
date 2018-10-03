@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/audiosyncrasy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jerkeller.com
+  * I am audiosyncrasy (https://keybase.io/audiosyncrasy) on keybase.
+  * I have a public key ASDRTKm_TaaPPXoFoMbbzUm7nod47klGXMTxiEP_2TrH9go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d14ca9bf4da68f3d7a05a0c6dbcd49bb9e8778ee49465cc4f18843ffd93ac7f60a",
+      "host": "keybase.io",
+      "kid": "0120d14ca9bf4da68f3d7a05a0c6dbcd49bb9e8778ee49465cc4f18843ffd93ac7f60a",
+      "uid": "533de69fb3b43800aa64cb0ea2fa3619",
+      "username": "audiosyncrasy"
+    },
+    "merkle_root": {
+      "ctime": 1538537784,
+      "hash": "a181b9bef2c28ec8612d7ed9ca493ed5a15758aba01c3a4e00f10a7cb902145a18240e3c6b440cce557c0a2d23a8850f4e7bdd9992352783f622b921f5915936",
+      "hash_meta": "8c0a98182f7b2aab45baca02e176ddd5edf504c46cb41944049c3b290815ccb5",
+      "seqno": 3733993
+    },
+    "service": {
+      "entropy": "Yhm3RE9eTPXA4LfrTzEZ9IZR",
+      "hostname": "jerkeller.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.2"
+  },
+  "ctime": 1538537821,
+  "expire_in": 504576000,
+  "prev": "9a2fb79320e002f6a85b2ea2deb05c58c6cf0c6558a36c4a7f60e91e1dc65967",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0Uypv02mjz16BaDG281Ju56HeO5JRlzE8YhD/9k6x/YKp3BheWxvYWTESpcCB8Qgmi+3kyDgAvaoWy6i3rBcWMbPDGVYo2xKf2DpHh3GWWfEIBdZSzwN6M/Zb9lGjQI6iwiv7QObDGzex8jeJXTzxOcTAgHCo3NpZ8RAMQJUNaF9e+xdMVZ3PqnaU6VqQiRJc7T67hTAAK100bxyGGLivpr4tJxyIpHmjKYbxPm2khYwxti48CSik84wBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKMtttwk/arBlPWU86TWGGeBU8ULkbCz50W8O4NtY2Rqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/audiosyncrasy
+
+==================================================================
