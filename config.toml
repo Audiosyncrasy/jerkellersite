@@ -6,7 +6,6 @@ languageCode = "en-us"
 theme = "prologue"
 title = "Jer Keller"
 [params]
-copyright = "2019 Jer Keller"
 description = "custom drums for your project"
 name = "Jer Keller"
 [[params.portfolio1]]
