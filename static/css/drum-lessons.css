@@ -1,0 +1,25 @@
+.link-list-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.link-list-item-body {
+  font-size: 0.9rem;
+}
+
+.link-list-item-desc {
+  margin-bottom: 1rem;
+}
+
+.link-list-item-img {
+  width: auto;
+}
+
+.link-list-item-img > img {
+  width: 150px;
+}
+
+.link-list-item-link {
+  display: inline-block;
+
+}
