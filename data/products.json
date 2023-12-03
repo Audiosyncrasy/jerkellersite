@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "DMP3 Preamp Template",
+    "price": 9.95,
+    "image": "test.jpg",
+    "description": "Template for recording settings for an M-Audio DMP3 dual-channel preamp during a recording session.",
+    "product_url": "/"
+  },
+  {
+    "id": "2",
+    "name": "VTB1 Preamp Template",
+    "price": 7.95,
+    "image": "test.jpg",
+    "description": "Template for recording settings for a Studio Projects single-channel preamp during a recording session.",
+    "product_url": "/"
+  }
+]

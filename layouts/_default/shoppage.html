@@ -1,0 +1,11 @@
+{{ partial "header.html" }}
+<div class="content snipcart">
+  <h2 class="snipcart__font--secondary snipcart__font--bold snipcart__font--xlarge">{{ .Title }}</h2>
+  {{ partial "navigation/navheader" . }}
+  <section class="">
+    {{ range .Site.Data.products }}
+      {{ partial "product" . }}
+    {{ end }}
+  </section>
+</div>
+{{ partial "footer.html" }}

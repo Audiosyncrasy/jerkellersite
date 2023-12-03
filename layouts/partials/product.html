@@ -1,0 +1,20 @@
+<div class="">
+  <h2 class="snipcart__font--xlarge snipcart__font--secondary snipcart__font--black">{{ .name }}</h2>
+  {{ with .image }}
+    <img class="snipcart-card-product__image" src="{{ . }}" alt="">
+  {{ end }}
+  <p class="snipcart__font--std">{{ .description }}</p>
+  <div class="">
+    <div class="snipcart__font--bold snipcart__font--secondary">${{ .price }}</div>
+    <button
+      class="snipcart-add-item"
+      label="Add to cart"
+      data-item-id="{{ .id }}"
+      data-item-name="{{ .name }}"
+      data-item-price="{{ .price }}"
+      data-item-url="{{ .product_url }}"
+      data-item-description="{{ .description }}">
+      Add to cart
+    </button>
+  </div>
+</div>
