@@ -1,0 +1,47 @@
+.link-list-item {
+  display: flex;
+  gap: 2rem 1rem;
+  padding-bottom: 0.5rem;
+  page-break-inside: avoid;
+}
+
+.link-list-item:not(:first-child) {
+  border-top: 1px solid #666;
+  padding-top: 1rem;
+}
+
+.link-list-item-body {
+  font-size: 0.9rem;
+}
+
+.link-list-item-desc {
+  margin-bottom: 1rem;
+}
+
+.link-list-item-img {
+  width: auto;
+}
+
+.link-list-item-img > img {
+  width: 150px;
+  opacity: 100%;
+}
+
+.link-list-item-link {
+  display: block;
+}
+
+.affiliate-link:after {
+  content: ' (Affiliate Link)';
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.faq-list-question {
+  font-weight: 700;
+}
+
+footer {
+  font-size: 0.7rem;
+  color: #666;
+}
