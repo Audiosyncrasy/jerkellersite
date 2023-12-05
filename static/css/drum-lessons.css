@@ -31,7 +31,7 @@
   display: block;
 }
 
-.affiliate-link:after {
+.affiliate-link::after {
   content: ' (Affiliate Link)';
   color: #666;
   font-size: 0.8rem;
