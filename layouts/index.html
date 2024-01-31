@@ -121,49 +121,145 @@
 								<h2>Projects</h2>
 							</header>
 
-							<p>Event calendar and a list of Jer's current projects</p>
+							<p>Event calendar and a list of Jer's current and past projects</p>
+
+							<!--<p id="calendar-header">Calendar</p>-->
 							
 							<div class="widget-container">
-                                				<script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="The Dizzys" data-display-local-dates="false" data-display-past-dates="false" data-auto-style="false" data-text-color="#000000" data-link-color="#8ebebc" data-background-color="rgba(0,0,0,0)" data-display-limit="15" data-link-text-color="#FFFFFF" data-display-lineup="false" data-separator-color="rgba(255, 255, 255, 0.5)"></a>
-                            				</div>
-							
-                            			<p id="calendar-header">Calendar</p>
+								<a class="bit-widget-initializer"
+									
+									data-artist-name="id_15465027"
+									
+									data-background-color="#ffffff"
+									data-separator-color="#DDDDDD"
+									data-text-color="#424242"
+									data-font="Helvetica"
+									data-auto-style="true"
+									
+									data-button-label-capitalization="capitalize"
+									data-header-capitalization="undefined"
+									data-location-capitalization="capitalize"
+									data-venue-capitalization="capitalize"
+									data-display-local-dates="true"
+									data-local-dates-position="tab"
+									data-display-past-dates="true"
+									data-display-details=""
+									data-display-lineup=""
+									data-display-start-time=""
+									data-social-share-icon="true"
+									data-display-limit="all"
+									
+									data-date-format="MMM. D, YYYY"
+									data-date-orientation="horizontal"
+									data-date-border-color="#4A4A4A"
+									data-date-border-width="1px"
+									data-date-capitalization="undefined"
+									data-date-border-radius="10px"
+									
+									data-event-ticket-cta-size="medium"
+									data-event-custom-ticket-text="undefined"
+									data-event-ticket-text="TICKETS"
+									data-event-ticket-icon=""
+									data-event-ticket-cta-text-color="#FFFFFF"
+									data-event-ticket-cta-bg-color="#4A4A4A"
+									data-event-ticket-cta-border-color="#4A4A4A"
+									data-event-ticket-cta-border-width="0px"
+									data-event-ticket-cta-border-radius="4px"
+									
+									data-sold-out-button-text-color="#FFFFFF"
+									data-sold-out-button-background-color="#4A4A4A"
+									data-sold-out-button-border-color="#4A4A4A"
+									data-sold-out-button-clickable="true"
+									
+									data-event-rsvp-position="left"
+									data-event-rsvp-cta-size="small"
+									data-event-rsvp-only-show-icon="true"
+									data-event-rsvp-text="REMIND ME"
+									data-event-rsvp-icon="false"
+									data-event-rsvp-cta-text-color="#4A4A4A"
+									data-event-rsvp-cta-bg-color="rgba(255,255,255,1)"
+									data-event-rsvp-cta-border-color="#4A4A4A"
+									data-event-rsvp-cta-border-width="1px"
+									data-event-rsvp-cta-border-radius="4px"
+									
+									data-follow-section-position="top"
+									data-follow-section-alignment="center"
+									data-follow-section-header-text="Get updates on new shows, new music, and more."
+									data-follow-section-cta-size="small"
+									data-follow-section-cta-text="FOLLOW"
+									data-follow-section-cta-icon="true"
+									data-follow-section-cta-text-color="#FFFFFF"
+									data-follow-section-cta-bg-color="#4A4A4A"
+									data-follow-section-cta-border-color="#4A4A4A"
+									data-follow-section-cta-border-width="0px"
+									data-follow-section-cta-border-radius="4px"
+									
+									data-play-my-city-position="bottom"
+									data-play-my-city-alignment="Center"
+									data-play-my-city-header-text="Don’t see a show near you?"
+									data-play-my-city-cta-size="medium"
+									data-play-my-city-cta-text="REQUEST A SHOW"
+									data-play-my-city-cta-icon="true"
+									data-play-my-city-cta-text-color="#FFFFFF"
+									data-play-my-city-cta-bg-color="#4A4A4A"
+									data-play-my-city-cta-border-color="#4A4A4A"
+									data-play-my-city-cta-border-width="0px"
+									data-play-my-city-cta-border-radius="4px"
+									
+									data-optin-font=""
+									data-optin-text-color=""
+									data-optin-bg-color=""
+									data-optin-cta-text-color=""
+									data-optin-cta-bg-color=""
+									data-optin-cta-border-width=""
+									data-optin-cta-border-radius=""
+									data-optin-cta-border-color=""
+									
+									data-language="en"
+									data-layout-breakpoint="900"
+									data-app-id=""
+									data-affil-code=""
+									data-bit-logo-position="bottomRight"
+									data-bit-logo-color="rgba(204,204,204,100)"
+								></a>
+							</div>
 
-              <div class="row">
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio1 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit scrolly"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+							<div class="portfolio-container">
+								<div class="row">
+									<div class="4u 12u$(mobile)">
+									{{ range .Site.Params.portfolio1 }} 
+									<article class="item">
+										<a href="{{ .url }}" class="image fit scrolly"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+										<header>
+										<h3>{{ .title }}</h3>
+										</header>
+									</article>
+									{{ end }}
+									</div>
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio2 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit" target="_blank"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+									<div class="4u 12u$(mobile)">
+									{{ range .Site.Params.portfolio2 }} 
+									<article class="item">
+										<a href="{{ .url }}" class="image fit" target="_blank"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+										<header>
+										<h3>{{ .title }}</h3>
+										</header>
+									</article>
+									{{ end }}
+									</div>
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio3 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit" target="_blank"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-              </div>
-
+									<div class="4u 12u$(mobile)">
+									{{ range .Site.Params.portfolio3 }} 
+									<article class="item">
+										<a href="{{ .url }}" class="image fit" target="_blank"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+										<header>
+										<h3>{{ .title }}</h3>
+										</header>
+									</article>
+									{{ end }}
+									</div>
+								</div>
+							</div>
 
 						</div>
 					</section>
@@ -253,7 +349,7 @@
 								<h2>About</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="img/about.jpg" alt="jer staring directly into the camera" /></a>
+							<a href="#" class="image featured"><img src="img/jer-drums-side.jpg" alt="jer staring directly into the camera" /></a>
 
 							<p><i class="fa fa-quote-left"></i> I am intensely passionate about the music creation process, from start to finish.</p>
 							
@@ -305,6 +401,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
 			<script src="js/jquery.min.js"></script>
 			<script src="js/jquery.scrolly.min.js"></script>
 			<script src="js/jquery.scrollzer.min.js"></script>
@@ -312,6 +409,5 @@
 			<script src="js/util.js"></script>
 			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
 			<script src="js/main.js"></script>
-
 	</body>
 </html>
